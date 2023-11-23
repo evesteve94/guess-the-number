@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <main>
+        <h1>Guess the Number!</h1>
+        <p>Guess a number between 0 and 100</p>
+
+        <div class="btn-div">
+        <h2 id="under-title">Press the Start Button:</h2>
+        <button id="start-game">Start Game!</button>
+        </div>
+
+        <div class="game-div" id="game-div">
+            <label for="guess">Guess A Number: </label>
+            <input type="text" name="guess" id="guess">
+            <button id="guess-btn">Guess!</button>
+
+        </div>
+        <div class="list-div">
+              <ul id="guess-list">
+                <!-- fylls på med gissningar, slutar efter fem stycken -->
+            </ul>
+        </div>
+          
+    </main>
+    
+    <script src="./script/main.js"></script>
+</body>
+</html>
